@@ -1,11 +1,11 @@
 public class TestCase {
     public static void main(String[] args) {
-        int x1 = 3, y1 = 4, z1 = 5;
-        int x2 = 6, y2 = 10, z2 = 15;
-        int x3 = 100, y3 = 400, z3 = 50;
+        String x7 = "Apple", y7 = "Banana", z7 = "Pear";
+        String x8 = "Car", y8 = "Bus", z8 = "Cycle";
+        String x9 = "Delhi", y9 = "America", z9 = "Australia";
 
-        new intMaximumTest(x1, y1, z1).maximum();
-        new intMaximumTest(x2, y2, z2).maximum();
-        new intMaximumTest(x3, y3, z3).maximum();
+        new stringMaximumTest(x7, y7, z7).maximum();
+        new stringMaximumTest(x8, y8, z8).maximum();
+        new stringMaximumTest(x9, y9, z9).maximum();
     }
 }
